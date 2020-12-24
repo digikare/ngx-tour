@@ -1,7 +1,7 @@
 {
-  "name": "ngx-tour-md-menu",
+  "name": "@digikare/ngx-tour-md-menu",
   "version": "4.2.0",
-  "repository": "https://github.com/isaacplmann/ngx-tour.git",
+  "repository": "https://github.com/digikare/ngx-tour.git",
   "author": "Isaac Mann <isaacplmann@gmail.com>",
   "license": "MIT",
   "dependencies": {

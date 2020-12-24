@@ -1,7 +1,7 @@
 {
-  "name": "ngx-tour-ngx-popper",
+  "name": "@digikare/ngx-tour-ngx-popper",
   "version": "4.1.1",
-  "repository": "https://github.com/isaacplmann/ngx-tour.git",
+  "repository": "https://github.com/digikare/ngx-tour.git",
   "author": "Damien Murphy",
   "license": "MIT",
   "peerDependencies": {
