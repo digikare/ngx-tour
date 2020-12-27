@@ -1,6 +1,6 @@
 {
   "name": "@digikare/ngx-tour-ngx-popper",
-  "version": "4.1.1",
+  "version": "4.1.2",
   "repository": "https://github.com/digikare/ngx-tour.git",
   "author": "Damien Murphy",
   "license": "MIT",
@@ -8,7 +8,7 @@
     "@angular/common": ">=7.0.0 <9.0.0",
     "@angular/core": ">=7.0.0 <9.0.0",
     "ngx-popper": "^2.0.1",
-    "@digikare/ngx-tour-core": "^4.1.1"
+    "@digikare/ngx-tour-core": "^4.2.1"
   },
   "dependencies": {
     "tslib": "^2.0.0",
