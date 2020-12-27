@@ -7,7 +7,7 @@ import {
   ViewChild
 } from '@angular/core';
 import { MatMenu } from '@angular/material/menu';
-import { IStepOption, TourHotkeyListenerComponent } from 'ngx-tour-core';
+import { IStepOption, TourHotkeyListenerComponent } from '@digikare/ngx-tour-core';
 
 import { TourStepTemplateService } from './tour-step-template.service';
 import { NgxmTourService } from './ngx-md-menu-tour.service';

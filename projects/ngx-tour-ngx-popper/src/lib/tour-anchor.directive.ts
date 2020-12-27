@@ -1,7 +1,7 @@
 import { Directive, ElementRef, Host, HostBinding, Input } from '@angular/core';
 import type {OnDestroy, OnInit} from '@angular/core';
 import { PopperController, Placements, Triggers } from 'ngx-popper';
-import { TourAnchorDirective } from 'ngx-tour-core';
+import { TourAnchorDirective } from '@digikare/ngx-tour-core';
 import withinviewport from 'withinviewport';
 
 import { NgxpTourService } from './ngx-popper-tour.service';
@@ -49,7 +49,7 @@ export class TourAnchorNgxPopperDirective implements OnInit, OnDestroy, TourAnch
     step.prevBtnTitle = step.prevBtnTitle || 'Prev';
     step.nextBtnTitle = step.nextBtnTitle || 'Next';
     step.endBtnTitle = step.endBtnTitle || 'End';
-    
+
     this.popoverDirective.content = this.tourStepTemplate.template;
     this.popoverDirective.targetElement = this.element.nativeElement;
     this.popoverDirective.placement = step.placement || Placements.Auto;

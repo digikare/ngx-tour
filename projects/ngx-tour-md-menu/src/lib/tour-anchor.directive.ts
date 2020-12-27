@@ -11,7 +11,7 @@ import type {OnDestroy, OnInit} from '@angular/core';
 import {
   TourAnchorDirective,
   TourState
-} from 'ngx-tour-core';
+} from '@digikare/ngx-tour-core';
 import { Subscription } from 'rxjs';
 import withinviewport from 'withinviewport';
 
